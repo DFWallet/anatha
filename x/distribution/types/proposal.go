@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
+	sdk "github.com/DFWallet/anatha/types"
+	govtypes "github.com/DFWallet/anatha/x/gov/types"
 )
 
 const (

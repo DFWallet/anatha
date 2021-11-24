@@ -3,10 +3,10 @@ package evidence_test
 import (
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/evidence"
-	"github.com/cosmos/cosmos-sdk/x/evidence/internal/types"
+	"github.com/DFWallet/anatha/simapp"
+	sdk "github.com/DFWallet/anatha/types"
+	"github.com/DFWallet/anatha/x/evidence"
+	"github.com/DFWallet/anatha/x/evidence/internal/types"
 
 	"github.com/stretchr/testify/suite"
 	abci "github.com/tendermint/tendermint/abci/types"

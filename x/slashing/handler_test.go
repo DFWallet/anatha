@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	slashingkeeper "github.com/cosmos/cosmos-sdk/x/slashing/internal/keeper"
-	"github.com/cosmos/cosmos-sdk/x/slashing/internal/types"
-	"github.com/cosmos/cosmos-sdk/x/staking"
+	sdk "github.com/DFWallet/anatha/types"
+	slashingkeeper "github.com/DFWallet/anatha/x/slashing/internal/keeper"
+	"github.com/DFWallet/anatha/x/slashing/internal/types"
+	"github.com/DFWallet/anatha/x/staking"
 )
 
 func TestCannotUnjailUnlessJailed(t *testing.T) {

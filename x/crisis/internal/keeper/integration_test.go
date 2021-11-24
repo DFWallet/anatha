@@ -5,8 +5,8 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/simapp"
+	"github.com/DFWallet/anatha/codec"
+	"github.com/DFWallet/anatha/simapp"
 )
 
 func createTestApp() *simapp.SimApp {

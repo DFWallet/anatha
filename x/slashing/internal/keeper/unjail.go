@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/slashing/internal/types"
+	sdk "github.com/DFWallet/anatha/types"
+	"github.com/DFWallet/anatha/x/slashing/internal/types"
 )
 
 // Unjail calls the staking Unjail function to unjail a validator if the

@@ -6,12 +6,12 @@ import (
 
 	"github.com/tendermint/tendermint/libs/log"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	authexported "github.com/cosmos/cosmos-sdk/x/auth/exported"
-	vestexported "github.com/cosmos/cosmos-sdk/x/auth/vesting/exported"
-	"github.com/cosmos/cosmos-sdk/x/bank/internal/types"
-	"github.com/cosmos/cosmos-sdk/x/params"
+	sdk "github.com/DFWallet/anatha/types"
+	sdkerrors "github.com/DFWallet/anatha/types/errors"
+	authexported "github.com/DFWallet/anatha/x/auth/exported"
+	vestexported "github.com/DFWallet/anatha/x/auth/vesting/exported"
+	"github.com/DFWallet/anatha/x/bank/internal/types"
+	"github.com/DFWallet/anatha/x/params"
 )
 
 var _ Keeper = (*BaseKeeper)(nil)

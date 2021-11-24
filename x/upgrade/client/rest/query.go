@@ -7,9 +7,9 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/types/rest"
-	upgrade "github.com/cosmos/cosmos-sdk/x/upgrade/internal/types"
+	"github.com/DFWallet/anatha/client/context"
+	"github.com/DFWallet/anatha/types/rest"
+	upgrade "github.com/DFWallet/anatha/x/upgrade/internal/types"
 )
 
 // RegisterRoutes registers REST routes for the upgrade module under the path specified by routeName.

@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/require"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/store/iavl"
-	"github.com/cosmos/cosmos-sdk/store/types"
+	"github.com/DFWallet/anatha/store/iavl"
+	"github.com/DFWallet/anatha/store/types"
 )
 
 func newMemTestKVStore(t *testing.T) types.KVStore {

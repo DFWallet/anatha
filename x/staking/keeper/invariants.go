@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/exported"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	sdk "github.com/DFWallet/anatha/types"
+	"github.com/DFWallet/anatha/x/staking/exported"
+	"github.com/DFWallet/anatha/x/staking/types"
 )
 
 // RegisterInvariants registers all staking invariants

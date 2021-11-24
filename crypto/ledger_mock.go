@@ -1,3 +1,4 @@
+//go:build ledger && test_ledger_mock
 // +build ledger,test_ledger_mock
 
 package crypto
@@ -14,9 +15,9 @@ import (
 
 	bip39 "github.com/cosmos/go-bip39"
 
-	"github.com/cosmos/cosmos-sdk/crypto/keys/hd"
-	"github.com/cosmos/cosmos-sdk/tests"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/DFWallet/anatha/crypto/keys/hd"
+	"github.com/DFWallet/anatha/tests"
+	sdk "github.com/DFWallet/anatha/types"
 )
 
 // If ledger support (build tag) has been enabled, which implies a CGO dependency,

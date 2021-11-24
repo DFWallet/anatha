@@ -3,12 +3,12 @@ package keeper
 import (
 	"encoding/hex"
 
-	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/evidence/exported"
-	"github.com/cosmos/cosmos-sdk/x/evidence/internal/types"
+	"github.com/DFWallet/anatha/client"
+	"github.com/DFWallet/anatha/codec"
+	sdk "github.com/DFWallet/anatha/types"
+	sdkerrors "github.com/DFWallet/anatha/types/errors"
+	"github.com/DFWallet/anatha/x/evidence/exported"
+	"github.com/DFWallet/anatha/x/evidence/internal/types"
 
 	abci "github.com/tendermint/tendermint/abci/types"
 )

@@ -3,8 +3,8 @@ package cache
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/store/cachekv"
-	"github.com/cosmos/cosmos-sdk/store/types"
+	"github.com/DFWallet/anatha/store/cachekv"
+	"github.com/DFWallet/anatha/store/types"
 
 	lru "github.com/hashicorp/golang-lru"
 )

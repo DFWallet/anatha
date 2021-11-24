@@ -11,11 +11,11 @@ import (
 	"github.com/tendermint/tendermint/crypto/secp256k1"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	simapparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	"github.com/DFWallet/anatha/codec"
+	simapparams "github.com/DFWallet/anatha/simapp/params"
+	"github.com/DFWallet/anatha/types/module"
+	"github.com/DFWallet/anatha/x/auth"
+	"github.com/DFWallet/anatha/x/simulation"
 )
 
 // AppStateFn returns the initial application state using a genesis or the simulation parameters.

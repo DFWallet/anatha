@@ -3,8 +3,8 @@ package exported
 import (
 	"time"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authexported "github.com/cosmos/cosmos-sdk/x/auth/exported"
+	sdk "github.com/DFWallet/anatha/types"
+	authexported "github.com/DFWallet/anatha/x/auth/exported"
 )
 
 // VestingAccount defines an account type that vests coins via a vesting schedule.

@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/x/auth/exported"
+	"github.com/DFWallet/anatha/codec"
+	"github.com/DFWallet/anatha/x/auth/exported"
 )
 
 // ModuleCdc auth module wide codec

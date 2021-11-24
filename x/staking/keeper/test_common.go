@@ -16,15 +16,15 @@ import (
 	tmtypes "github.com/tendermint/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/store"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth"
-	authexported "github.com/cosmos/cosmos-sdk/x/auth/exported"
-	"github.com/cosmos/cosmos-sdk/x/bank"
-	"github.com/cosmos/cosmos-sdk/x/params"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
-	"github.com/cosmos/cosmos-sdk/x/supply"
+	"github.com/DFWallet/anatha/codec"
+	"github.com/DFWallet/anatha/store"
+	sdk "github.com/DFWallet/anatha/types"
+	"github.com/DFWallet/anatha/x/auth"
+	authexported "github.com/DFWallet/anatha/x/auth/exported"
+	"github.com/DFWallet/anatha/x/bank"
+	"github.com/DFWallet/anatha/x/params"
+	"github.com/DFWallet/anatha/x/staking/types"
+	"github.com/DFWallet/anatha/x/supply"
 )
 
 // dummy addresses used for testing

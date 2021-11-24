@@ -1,9 +1,9 @@
 package keeper
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/staking/exported"
+	sdk "github.com/DFWallet/anatha/types"
+	"github.com/DFWallet/anatha/x/gov/types"
+	"github.com/DFWallet/anatha/x/staking/exported"
 )
 
 // TODO: Break into several smaller functions for clarity

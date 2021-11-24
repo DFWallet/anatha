@@ -1,11 +1,11 @@
 package types
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	authexported "github.com/cosmos/cosmos-sdk/x/auth/exported"
-	"github.com/cosmos/cosmos-sdk/x/staking"
-	stakingexported "github.com/cosmos/cosmos-sdk/x/staking/exported"
-	supplyexported "github.com/cosmos/cosmos-sdk/x/supply/exported"
+	sdk "github.com/DFWallet/anatha/types"
+	authexported "github.com/DFWallet/anatha/x/auth/exported"
+	"github.com/DFWallet/anatha/x/staking"
+	stakingexported "github.com/DFWallet/anatha/x/staking/exported"
+	supplyexported "github.com/DFWallet/anatha/x/supply/exported"
 )
 
 // AccountKeeper defines the expected account keeper used for simulations (noalias)
@@ -67,7 +67,7 @@ type SupplyKeeper interface {
 	GetModuleAddress(name string) sdk.AccAddress
 	GetModuleAccount(ctx sdk.Context, name string) supplyexported.ModuleAccountI
 
-	// TODO remove with genesis 2-phases refactor https://github.com/cosmos/cosmos-sdk/issues/2862
+	// TODO remove with genesis 2-phases refactor https://github.com/DFWallet/anatha/issues/2862
 	SetModuleAccount(sdk.Context, supplyexported.ModuleAccountI)
 
 	SendCoinsFromModuleToModule(ctx sdk.Context, senderModule string, recipientModule string, amt sdk.Coins) error

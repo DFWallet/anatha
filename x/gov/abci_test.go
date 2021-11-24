@@ -8,9 +8,9 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	keep "github.com/cosmos/cosmos-sdk/x/gov/keeper"
-	"github.com/cosmos/cosmos-sdk/x/staking"
+	sdk "github.com/DFWallet/anatha/types"
+	keep "github.com/DFWallet/anatha/x/gov/keeper"
+	"github.com/DFWallet/anatha/x/staking"
 )
 
 func TestTickExpiredDepositPeriod(t *testing.T) {

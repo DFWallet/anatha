@@ -1,8 +1,8 @@
 package auth
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/exported"
+	sdk "github.com/DFWallet/anatha/types"
+	"github.com/DFWallet/anatha/x/auth/exported"
 )
 
 // InitGenesis - Init store state from genesis data

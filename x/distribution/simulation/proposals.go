@@ -3,12 +3,12 @@ package simulation
 import (
 	"math/rand"
 
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/distribution/keeper"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	simappparams "github.com/DFWallet/anatha/simapp/params"
+	sdk "github.com/DFWallet/anatha/types"
+	"github.com/DFWallet/anatha/x/distribution/keeper"
+	"github.com/DFWallet/anatha/x/distribution/types"
+	govtypes "github.com/DFWallet/anatha/x/gov/types"
+	"github.com/DFWallet/anatha/x/simulation"
 )
 
 // OpWeightSubmitCommunitySpendProposal app params key for community spend proposal

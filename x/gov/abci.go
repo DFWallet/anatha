@@ -3,8 +3,8 @@ package gov
 import (
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
+	sdk "github.com/DFWallet/anatha/types"
+	"github.com/DFWallet/anatha/x/gov/types"
 )
 
 // EndBlocker called every block, process inflation, update validator set.

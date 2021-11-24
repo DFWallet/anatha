@@ -13,8 +13,8 @@ import (
 
 	"github.com/tendermint/tendermint/crypto/secp256k1"
 
-	"github.com/cosmos/cosmos-sdk/store"
-	"github.com/cosmos/cosmos-sdk/types"
+	"github.com/DFWallet/anatha/store"
+	"github.com/DFWallet/anatha/types"
 )
 
 type MockLogger struct {

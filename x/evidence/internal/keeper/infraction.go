@@ -3,9 +3,9 @@ package keeper
 import (
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/DFWallet/anatha/types"
 
-	"github.com/cosmos/cosmos-sdk/x/evidence/internal/types"
+	"github.com/DFWallet/anatha/x/evidence/internal/types"
 )
 
 // HandleDoubleSign implements an equivocation evidence handler. Assuming the

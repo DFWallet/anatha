@@ -3,10 +3,10 @@ package simulation
 import (
 	"math/rand"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/params/types"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	sdk "github.com/DFWallet/anatha/types"
+	govtypes "github.com/DFWallet/anatha/x/gov/types"
+	"github.com/DFWallet/anatha/x/params/types"
+	"github.com/DFWallet/anatha/x/simulation"
 )
 
 // SimulateParamChangeProposalContent returns random parameter change content.

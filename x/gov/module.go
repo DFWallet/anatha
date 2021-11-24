@@ -12,16 +12,16 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/x/gov/client"
-	"github.com/cosmos/cosmos-sdk/x/gov/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/gov/client/rest"
-	"github.com/cosmos/cosmos-sdk/x/gov/simulation"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	sim "github.com/cosmos/cosmos-sdk/x/simulation"
+	"github.com/DFWallet/anatha/client/context"
+	"github.com/DFWallet/anatha/codec"
+	sdk "github.com/DFWallet/anatha/types"
+	"github.com/DFWallet/anatha/types/module"
+	"github.com/DFWallet/anatha/x/gov/client"
+	"github.com/DFWallet/anatha/x/gov/client/cli"
+	"github.com/DFWallet/anatha/x/gov/client/rest"
+	"github.com/DFWallet/anatha/x/gov/simulation"
+	"github.com/DFWallet/anatha/x/gov/types"
+	sim "github.com/DFWallet/anatha/x/simulation"
 )
 
 var (

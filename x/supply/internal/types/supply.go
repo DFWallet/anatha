@@ -5,8 +5,8 @@ import (
 
 	yaml "gopkg.in/yaml.v2"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/supply/exported"
+	sdk "github.com/DFWallet/anatha/types"
+	"github.com/DFWallet/anatha/x/supply/exported"
 )
 
 // Implements Delegation interface

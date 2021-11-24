@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	"github.com/DFWallet/anatha/x/auth/types"
+	"github.com/DFWallet/anatha/x/simulation"
 )
 
 const (

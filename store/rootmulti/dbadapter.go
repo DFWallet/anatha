@@ -1,8 +1,8 @@
 package rootmulti
 
 import (
-	"github.com/cosmos/cosmos-sdk/store/dbadapter"
-	"github.com/cosmos/cosmos-sdk/store/types"
+	"github.com/DFWallet/anatha/store/dbadapter"
+	"github.com/DFWallet/anatha/store/types"
 )
 
 var commithash = []byte("FAKE_HASH")

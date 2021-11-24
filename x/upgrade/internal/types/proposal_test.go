@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/x/gov"
+	"github.com/DFWallet/anatha/codec"
+	"github.com/DFWallet/anatha/x/gov"
 )
 
 type ProposalWrapper struct {

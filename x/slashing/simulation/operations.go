@@ -4,15 +4,15 @@ import (
 	"errors"
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/baseapp"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/simapp/helpers"
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
-	"github.com/cosmos/cosmos-sdk/x/slashing/internal/keeper"
-	"github.com/cosmos/cosmos-sdk/x/slashing/internal/types"
-	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
+	"github.com/DFWallet/anatha/baseapp"
+	"github.com/DFWallet/anatha/codec"
+	"github.com/DFWallet/anatha/simapp/helpers"
+	simappparams "github.com/DFWallet/anatha/simapp/params"
+	sdk "github.com/DFWallet/anatha/types"
+	"github.com/DFWallet/anatha/x/simulation"
+	"github.com/DFWallet/anatha/x/slashing/internal/keeper"
+	"github.com/DFWallet/anatha/x/slashing/internal/types"
+	stakingkeeper "github.com/DFWallet/anatha/x/staking/keeper"
 )
 
 // Simulation operation weights constants

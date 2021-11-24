@@ -1,8 +1,8 @@
 package simulation
 
 import (
-	simappparams "github.com/cosmos/cosmos-sdk/simapp/params"
-	"github.com/cosmos/cosmos-sdk/x/simulation"
+	simappparams "github.com/DFWallet/anatha/simapp/params"
+	"github.com/DFWallet/anatha/x/simulation"
 )
 
 // OpWeightSubmitParamChangeProposal app params key for param change proposal

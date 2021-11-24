@@ -4,11 +4,11 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/cosmos/cosmos-sdk/store/dbadapter"
-	"github.com/cosmos/cosmos-sdk/store/gaskv"
-	"github.com/cosmos/cosmos-sdk/store/iavl"
-	"github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/DFWallet/anatha/store/dbadapter"
+	"github.com/DFWallet/anatha/store/gaskv"
+	"github.com/DFWallet/anatha/store/iavl"
+	"github.com/DFWallet/anatha/store/types"
+	sdk "github.com/DFWallet/anatha/types"
 
 	"github.com/stretchr/testify/require"
 

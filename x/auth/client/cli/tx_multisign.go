@@ -12,14 +12,14 @@ import (
 
 	"github.com/tendermint/tendermint/crypto/multisig"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/crypto/keys"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/version"
-	"github.com/cosmos/cosmos-sdk/x/auth/client/utils"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	"github.com/DFWallet/anatha/client/context"
+	"github.com/DFWallet/anatha/client/flags"
+	"github.com/DFWallet/anatha/codec"
+	"github.com/DFWallet/anatha/crypto/keys"
+	sdk "github.com/DFWallet/anatha/types"
+	"github.com/DFWallet/anatha/version"
+	"github.com/DFWallet/anatha/x/auth/client/utils"
+	"github.com/DFWallet/anatha/x/auth/types"
 )
 
 // GetSignCommand returns the sign command

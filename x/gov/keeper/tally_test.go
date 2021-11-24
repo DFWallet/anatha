@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/cosmos/cosmos-sdk/x/staking"
+	sdk "github.com/DFWallet/anatha/types"
+	"github.com/DFWallet/anatha/x/gov/types"
+	"github.com/DFWallet/anatha/x/staking"
 )
 
 func TestTallyNoOneVotes(t *testing.T) {

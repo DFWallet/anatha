@@ -13,16 +13,16 @@ import (
 	cfg "github.com/tendermint/tendermint/config"
 	"github.com/tendermint/tendermint/crypto"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	sim "github.com/cosmos/cosmos-sdk/x/simulation"
-	"github.com/cosmos/cosmos-sdk/x/staking/client/cli"
-	"github.com/cosmos/cosmos-sdk/x/staking/client/rest"
-	"github.com/cosmos/cosmos-sdk/x/staking/simulation"
-	"github.com/cosmos/cosmos-sdk/x/staking/types"
+	"github.com/DFWallet/anatha/client/context"
+	"github.com/DFWallet/anatha/codec"
+	sdk "github.com/DFWallet/anatha/types"
+	"github.com/DFWallet/anatha/types/module"
+	authtypes "github.com/DFWallet/anatha/x/auth/types"
+	sim "github.com/DFWallet/anatha/x/simulation"
+	"github.com/DFWallet/anatha/x/staking/client/cli"
+	"github.com/DFWallet/anatha/x/staking/client/rest"
+	"github.com/DFWallet/anatha/x/staking/simulation"
+	"github.com/DFWallet/anatha/x/staking/types"
 )
 
 var (

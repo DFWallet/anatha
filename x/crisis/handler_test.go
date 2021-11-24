@@ -9,12 +9,12 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/simapp"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/crisis"
-	distr "github.com/cosmos/cosmos-sdk/x/distribution"
-	"github.com/cosmos/cosmos-sdk/x/staking"
-	"github.com/cosmos/cosmos-sdk/x/supply"
+	"github.com/DFWallet/anatha/simapp"
+	sdk "github.com/DFWallet/anatha/types"
+	"github.com/DFWallet/anatha/x/crisis"
+	distr "github.com/DFWallet/anatha/x/distribution"
+	"github.com/DFWallet/anatha/x/staking"
+	"github.com/DFWallet/anatha/x/supply"
 )
 
 var (

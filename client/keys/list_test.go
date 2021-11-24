@@ -7,10 +7,10 @@ import (
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/crypto/keys"
-	"github.com/cosmos/cosmos-sdk/tests"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/DFWallet/anatha/client/flags"
+	"github.com/DFWallet/anatha/crypto/keys"
+	"github.com/DFWallet/anatha/tests"
+	sdk "github.com/DFWallet/anatha/types"
 )
 
 func Test_runListCmd(t *testing.T) {

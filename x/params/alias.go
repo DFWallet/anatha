@@ -3,8 +3,8 @@ package params
 // nolint
 
 import (
-	"github.com/cosmos/cosmos-sdk/x/params/subspace"
-	"github.com/cosmos/cosmos-sdk/x/params/types"
+	"github.com/DFWallet/anatha/x/params/subspace"
+	"github.com/DFWallet/anatha/x/params/types"
 )
 
 const (

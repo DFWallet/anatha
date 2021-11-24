@@ -13,8 +13,8 @@ import (
 	"github.com/tendermint/tendermint/libs/bech32"
 	"github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/DFWallet/anatha/client/flags"
+	sdk "github.com/DFWallet/anatha/types"
 )
 
 var config = sdk.GetConfig()

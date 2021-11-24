@@ -8,12 +8,12 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/rest"
-	"github.com/cosmos/cosmos-sdk/x/auth/client/utils"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
-	genutilrest "github.com/cosmos/cosmos-sdk/x/genutil/client/rest"
+	"github.com/DFWallet/anatha/client/context"
+	sdk "github.com/DFWallet/anatha/types"
+	"github.com/DFWallet/anatha/types/rest"
+	"github.com/DFWallet/anatha/x/auth/client/utils"
+	"github.com/DFWallet/anatha/x/auth/types"
+	genutilrest "github.com/DFWallet/anatha/x/genutil/client/rest"
 )
 
 // query accountREST Handler
@@ -38,7 +38,7 @@ func QueryAccountRequestHandlerFn(storeName string, cliCtx context.CLIContext) h
 		account, height, err := accGetter.GetAccountWithHeight(addr)
 		if err != nil {
 			// TODO: Handle more appropriately based on the error type.
-			// Ref: https://github.com/cosmos/cosmos-sdk/issues/4923
+			// Ref: https://github.com/DFWallet/anatha/issues/4923
 			if err := accGetter.EnsureExists(addr); err != nil {
 				cliCtx = cliCtx.WithHeight(height)
 				rest.PostProcessResponse(w, cliCtx, types.BaseAccount{})

@@ -3,7 +3,7 @@ package types
 import (
 	"sync"
 
-	"github.com/cosmos/cosmos-sdk/version"
+	"github.com/DFWallet/anatha/version"
 )
 
 // DefaultKeyringServiceName defines a default service name for the keyring.

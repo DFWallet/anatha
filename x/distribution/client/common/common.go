@@ -3,9 +3,9 @@ package common
 import (
 	"fmt"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
+	"github.com/DFWallet/anatha/client/context"
+	sdk "github.com/DFWallet/anatha/types"
+	"github.com/DFWallet/anatha/x/distribution/types"
 )
 
 // QueryDelegationRewards queries a delegation rewards between a delegator and a

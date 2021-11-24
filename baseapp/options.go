@@ -6,8 +6,8 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/cosmos/cosmos-sdk/store"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/DFWallet/anatha/store"
+	sdk "github.com/DFWallet/anatha/types"
 )
 
 // File for storing in-package BaseApp optional functions,

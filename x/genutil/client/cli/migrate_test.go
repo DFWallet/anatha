@@ -12,9 +12,9 @@ import (
 	"github.com/tendermint/tendermint/libs/cli"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/cosmos/cosmos-sdk/server"
-	"github.com/cosmos/cosmos-sdk/tests"
+	"github.com/DFWallet/anatha/client/flags"
+	"github.com/DFWallet/anatha/server"
+	"github.com/DFWallet/anatha/tests"
 )
 
 func setupCmd(genesisTime string, chainID string) *cobra.Command {

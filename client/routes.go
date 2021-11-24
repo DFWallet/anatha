@@ -3,8 +3,8 @@ package client
 import (
 	"github.com/gorilla/mux"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	"github.com/cosmos/cosmos-sdk/client/rpc"
+	"github.com/DFWallet/anatha/client/context"
+	"github.com/DFWallet/anatha/client/rpc"
 )
 
 // Register routes

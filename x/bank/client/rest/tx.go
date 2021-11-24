@@ -5,12 +5,12 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/cosmos/cosmos-sdk/client/context"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/rest"
-	"github.com/cosmos/cosmos-sdk/x/auth/client/utils"
+	"github.com/DFWallet/anatha/client/context"
+	sdk "github.com/DFWallet/anatha/types"
+	"github.com/DFWallet/anatha/types/rest"
+	"github.com/DFWallet/anatha/x/auth/client/utils"
 
-	"github.com/cosmos/cosmos-sdk/x/bank/internal/types"
+	"github.com/DFWallet/anatha/x/bank/internal/types"
 )
 
 // RegisterRoutes - Central function to define routes that get registered by the main application

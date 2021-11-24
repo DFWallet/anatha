@@ -3,12 +3,12 @@ package ante
 import (
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/auth/exported"
-	"github.com/cosmos/cosmos-sdk/x/auth/keeper"
-	"github.com/cosmos/cosmos-sdk/x/auth/types"
+	sdk "github.com/DFWallet/anatha/types"
+	"github.com/DFWallet/anatha/x/auth/exported"
+	"github.com/DFWallet/anatha/x/auth/keeper"
+	"github.com/DFWallet/anatha/x/auth/types"
 
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	sdkerrors "github.com/DFWallet/anatha/types/errors"
 )
 
 var (

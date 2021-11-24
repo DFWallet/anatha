@@ -3,8 +3,8 @@ package mint
 // nolint
 
 import (
-	"github.com/cosmos/cosmos-sdk/x/mint/internal/keeper"
-	"github.com/cosmos/cosmos-sdk/x/mint/internal/types"
+	"github.com/DFWallet/anatha/x/mint/internal/keeper"
+	"github.com/DFWallet/anatha/x/mint/internal/types"
 )
 
 const (

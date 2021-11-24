@@ -1,9 +1,9 @@
 package distribution
 
 import (
-	"github.com/cosmos/cosmos-sdk/x/distribution/client"
-	"github.com/cosmos/cosmos-sdk/x/distribution/keeper"
-	"github.com/cosmos/cosmos-sdk/x/distribution/types"
+	"github.com/DFWallet/anatha/x/distribution/client"
+	"github.com/DFWallet/anatha/x/distribution/keeper"
+	"github.com/DFWallet/anatha/x/distribution/types"
 )
 
 // nolint

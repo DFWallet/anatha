@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	"github.com/cosmos/cosmos-sdk/x/bank/internal/types"
+	"github.com/DFWallet/anatha/codec"
+	"github.com/DFWallet/anatha/types/module"
+	"github.com/DFWallet/anatha/x/bank/internal/types"
 )
 
 // Simulation parameter constants
