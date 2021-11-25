@@ -16,3 +16,9 @@ Already running
 2021-11-25 11:09:57.469 goland[2990:21800] Processing VMOptions file at /Users/panyi/Library/Application Support/JetBrains/GoLand2021.2/goland.vmoptions
 2021-11-25 11:09:57.469 goland[2990:21800] Done
 Already running
+2021-11-25 12:19:05.276 goland[7325:58280] allVms required 1.8*,1.8+
+2021-11-25 12:19:05.278 goland[7325:58283] Current Directory: /Users/panyi/project/test/tttt/anatha
+2021-11-25 12:19:05.278 goland[7325:58283] Value of GOLAND_VM_OPTIONS is (null)
+2021-11-25 12:19:05.278 goland[7325:58283] Processing VMOptions file at /Users/panyi/Library/Application Support/JetBrains/GoLand2021.2/goland.vmoptions
+2021-11-25 12:19:05.279 goland[7325:58283] Done
+Already running

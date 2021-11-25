@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/cosmos/cosmos-sdk/codec"
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/DFWallet/anatha/codec"
+	sdk "github.com/DFWallet/anatha/types"
 
-	"github.com/cosmos/cosmos-sdk/store/prefix"
+	"github.com/DFWallet/anatha/store/prefix"
 )
 
 const (
