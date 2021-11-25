@@ -17,32 +17,32 @@ in for Tendermint and other lower-level libraries (eg. [IAVL](https://github.com
 
 ### Core packages
 
-- [`/baseapp`](https://anatha/tree/master/baseapp)
-- [`/crypto`](https://anatha/tree/master/crypto)
-- [`/types`](https://anatha/tree/master/types)
-- [`/store`](https://anatha/tree/master/store)
+- [`/baseapp`](https://github.com/DFWallet/anatha/tree/master/baseapp)
+- [`/crypto`](https://github.com/DFWallet/anatha/tree/master/crypto)
+- [`/types`](https://github.com/DFWallet/anatha/tree/master/types)
+- [`/store`](https://github.com/DFWallet/anatha/tree/master/store)
 
 ### Modules
 
-- [`x/auth`](https://anatha/tree/master/x/auth)
-- [`x/bank`](https://anatha/tree/master/x/bank)
-- [`x/staking`](https://anatha/tree/master/x/staking)
-- [`x/slashing`](https://anatha/tree/master/x/slashing)
-- [`x/evidence`](https://anatha/tree/master/x/evidence)
-- [`x/distribution`](https://anatha/tree/master/x/distribution)
-- [`x/supply`](https://anatha/tree/master/x/supply)
-- [`x/ibc`](https://anatha/tree/ibc-alpha/x/ibc) (currently in alpha mode)
+- [`x/auth`](https://github.com/DFWallet/anatha/tree/master/x/auth)
+- [`x/bank`](https://github.com/DFWallet/anatha/tree/master/x/bank)
+- [`x/staking`](https://github.com/DFWallet/anatha/tree/master/x/staking)
+- [`x/slashing`](https://github.com/DFWallet/anatha/tree/master/x/slashing)
+- [`x/evidence`](https://github.com/DFWallet/anatha/tree/master/x/evidence)
+- [`x/distribution`](https://github.com/DFWallet/anatha/tree/master/x/distribution)
+- [`x/supply`](https://github.com/DFWallet/anatha/tree/master/x/supply)
+- [`x/ibc`](https://github.com/DFWallet/anatha/tree/ibc-alpha/x/ibc) (currently in alpha mode)
 
 We are interested in bugs in other modules, however the above are most likely to
 have significant vulnerabilities, due to the complexity / nuance involved. We
-also recommend you to read the [specification](https://anatha/blob/master/docs/building-modules/README.md) of each module before digging into
+also recommend you to read the [specification](https://github.com/DFWallet/anatha/blob/master/docs/building-modules/README.md) of each module before digging into
 the code.
 
 ### How we process Tx parameters
 
 - Integer operations on tx parameters, especially `sdk.Int` / `sdk.Dec`
 - Gas calculation & parameter choices
-- Tx signature verification (see [`x/auth/ante`](https://anatha/tree/master/x/auth/ante))
+- Tx signature verification (see [`x/auth/ante`](https://github.com/DFWallet/anatha/tree/master/x/auth/ante))
 - Possible Node DoS vectors (perhaps due to gas weighting / non constant timing)
 
 ### Handling private keys

@@ -16,15 +16,15 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/DFWallet/anatha/codec"
-	"github.com/DFWallet/anatha/store"
-	sdk "github.com/DFWallet/anatha/types"
-	"github.com/DFWallet/anatha/x/auth"
-	"github.com/DFWallet/anatha/x/bank"
-	"github.com/DFWallet/anatha/x/params"
-	"github.com/DFWallet/anatha/x/slashing/internal/types"
-	"github.com/DFWallet/anatha/x/staking"
-	"github.com/DFWallet/anatha/x/supply"
+	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/cosmos/cosmos-sdk/store"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/auth"
+	"github.com/cosmos/cosmos-sdk/x/bank"
+	"github.com/cosmos/cosmos-sdk/x/params"
+	"github.com/cosmos/cosmos-sdk/x/slashing/internal/types"
+	"github.com/cosmos/cosmos-sdk/x/staking"
+	"github.com/cosmos/cosmos-sdk/x/supply"
 )
 
 // TODO remove dependencies on staking (should only refer to validator set type from sdk)

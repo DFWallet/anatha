@@ -3,9 +3,9 @@ package types_test
 import (
 	"testing"
 
-	sdk "github.com/DFWallet/anatha/types"
-	"github.com/DFWallet/anatha/x/evidence/exported"
-	"github.com/DFWallet/anatha/x/evidence/internal/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/evidence/exported"
+	"github.com/cosmos/cosmos-sdk/x/evidence/internal/types"
 
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/crypto/ed25519"

@@ -1,7 +1,7 @@
 package types
 
 import (
-	sdk "github.com/DFWallet/anatha/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 // QueryBalanceParams defines the params for querying an account balance.

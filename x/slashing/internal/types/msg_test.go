@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/DFWallet/anatha/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 func TestMsgUnjailGetSignBytes(t *testing.T) {

@@ -3,9 +3,9 @@ package keeper
 import (
 	"fmt"
 
-	sdk "github.com/DFWallet/anatha/types"
-	"github.com/DFWallet/anatha/x/auth/exported"
-	"github.com/DFWallet/anatha/x/supply/internal/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/auth/exported"
+	"github.com/cosmos/cosmos-sdk/x/supply/internal/types"
 )
 
 // RegisterInvariants register all supply invariants

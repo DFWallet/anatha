@@ -3,8 +3,8 @@ package keeper_test
 import (
 	"strings"
 
-	"github.com/DFWallet/anatha/x/evidence/exported"
-	"github.com/DFWallet/anatha/x/evidence/internal/types"
+	"github.com/cosmos/cosmos-sdk/x/evidence/exported"
+	"github.com/cosmos/cosmos-sdk/x/evidence/internal/types"
 
 	abci "github.com/tendermint/tendermint/abci/types"
 )

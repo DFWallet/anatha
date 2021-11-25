@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	sdk "github.com/DFWallet/anatha/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 // ValidatorSigningInfo defines the signing info for a validator

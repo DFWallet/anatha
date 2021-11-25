@@ -3,10 +3,10 @@ package store
 // TODO: make it independent from list
 /*
 import (
-	"github.com/DFWallet/anatha/codec"
-	sdk "github.com/DFWallet/anatha/types"
+	"github.com/cosmos/cosmos-sdk/codec"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/DFWallet/anatha/store/list"
+	"github.com/cosmos/cosmos-sdk/store/list"
 )
 
 // Key for the top element position in the queue

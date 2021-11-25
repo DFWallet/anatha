@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	"github.com/DFWallet/anatha/x/gov"
+	"github.com/cosmos/cosmos-sdk/x/gov"
 )
 
 const (

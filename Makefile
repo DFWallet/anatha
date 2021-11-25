@@ -65,7 +65,7 @@ distclean:
 ### Documentation
 
 godocs:
-	@echo "--> Wait a few seconds and visit http://localhost:6060/pkg/anatha/types"
+	@echo "--> Wait a few seconds and visit http://localhost:6060/pkg/github.com/DFWallet/anatha/types"
 	godoc -http=:6060
 
 build-docs:
@@ -92,10 +92,10 @@ test: test-unit
 test-all: test-unit test-ledger-mock test-race test-cover
 
 test-ledger-mock:
-	@go test -mod=readonly `go list anatha/crypto` -tags='cgo ledger test_ledger_mock'
+	@go test -mod=readonly `go list github.com/DFWallet/anatha/crypto` -tags='cgo ledger test_ledger_mock'
 
 test-ledger: test-ledger-mock
-	@go test -mod=readonly -v `go list anatha/crypto` -tags='cgo ledger'
+	@go test -mod=readonly -v `go list github.com/DFWallet/anatha/crypto` -tags='cgo ledger'
 
 test-unit:
 	@VERSION=$(VERSION) go test -mod=readonly $(PACKAGES_NOSIMULATION) -tags='ledger test_ledger_mock'
@@ -182,7 +182,7 @@ lint: golangci-lint
 format: tools
 	find . -name '*.go' -type f -not -path "./vendor*" -not -path "*.git*" -not -path "./client/lcd/statik/statik.go" | xargs gofmt -w -s
 	find . -name '*.go' -type f -not -path "./vendor*" -not -path "*.git*" -not -path "./client/lcd/statik/statik.go" | xargs misspell -w
-	find . -name '*.go' -type f -not -path "./vendor*" -not -path "*.git*" -not -path "./client/lcd/statik/statik.go" | xargs goimports -w -local anatha
+	find . -name '*.go' -type f -not -path "./vendor*" -not -path "*.git*" -not -path "./client/lcd/statik/statik.go" | xargs goimports -w -local github.com/DFWallet/anatha
 .PHONY: format
 
 benchmark:
@@ -195,12 +195,12 @@ benchmark:
 DEVDOC_SAVE = docker commit `docker ps -a -n 1 -q` devdoc:local
 
 devdoc-init:
-	docker run -it -v "$(CURDIR):/go/src/anatha" -w "/go/src/anatha" tendermint/devdoc echo
+	docker run -it -v "$(CURDIR):/go/src/github.com/DFWallet/anatha" -w "/go/src/github.com/DFWallet/anatha" tendermint/devdoc echo
 	# TODO make this safer
 	$(call DEVDOC_SAVE)
 
 devdoc:
-	docker run -it -v "$(CURDIR):/go/src/anatha" -w "/go/src/anatha" devdoc:local bash
+	docker run -it -v "$(CURDIR):/go/src/github.com/DFWallet/anatha" -w "/go/src/github.com/DFWallet/anatha" devdoc:local bash
 
 devdoc-save:
 	# TODO make this safer

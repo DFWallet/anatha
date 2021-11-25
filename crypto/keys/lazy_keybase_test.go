@@ -10,10 +10,10 @@ import (
 	"github.com/tendermint/tendermint/crypto/ed25519"
 	tmamino "github.com/tendermint/tendermint/crypto/encoding/amino"
 
-	"github.com/DFWallet/anatha/codec"
-	"github.com/DFWallet/anatha/crypto/keys/hd"
-	"github.com/DFWallet/anatha/tests"
-	sdk "github.com/DFWallet/anatha/types"
+	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/cosmos/cosmos-sdk/crypto/keys/hd"
+	"github.com/cosmos/cosmos-sdk/tests"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 func TestNew(t *testing.T) {

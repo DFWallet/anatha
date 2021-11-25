@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	sdk "github.com/DFWallet/anatha/types"
-	"github.com/DFWallet/anatha/x/params/subspace"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/params/subspace"
 )
 
 var (

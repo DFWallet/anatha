@@ -1,5 +1,3 @@
-# anatha
-just anatha-sdk fork from anathatech.
 <!--
 parent:
   order: false
@@ -9,13 +7,13 @@ parent:
 
 ![banner](docs/cosmos-sdk-image.jpg)
 
-[![version](https://img.shields.io/github/tag/cosmos/cosmos-sdk.svg)](https://anatha/releases/latest)
+[![version](https://img.shields.io/github/tag/cosmos/cosmos-sdk.svg)](https://github.com/DFWallet/anatha/releases/latest)
 [![CircleCI](https://circleci.com/gh/cosmos/cosmos-sdk/tree/master.svg?style=shield)](https://circleci.com/gh/cosmos/cosmos-sdk/tree/master)
 [![codecov](https://codecov.io/gh/cosmos/cosmos-sdk/branch/master/graph/badge.svg)](https://codecov.io/gh/cosmos/cosmos-sdk)
-[![Go Report Card](https://goreportcard.com/badge/anatha)](https://goreportcard.com/report/anatha)
-[![license](https://img.shields.io/github/license/cosmos/cosmos-sdk.svg)](https://anatha/blob/master/LICENSE)
-[![LoC](https://tokei.rs/b1/github/cosmos/cosmos-sdk)](https://anatha)
-[![API Reference](https://godoc.org/anatha?status.svg)](https://godoc.org/anatha)
+[![Go Report Card](https://goreportcard.com/badge/github.com/DFWallet/anatha)](https://goreportcard.com/report/github.com/DFWallet/anatha)
+[![license](https://img.shields.io/github/license/cosmos/cosmos-sdk.svg)](https://github.com/DFWallet/anatha/blob/master/LICENSE)
+[![LoC](https://tokei.rs/b1/github/cosmos/cosmos-sdk)](https://github.com/DFWallet/anatha)
+[![API Reference](https://godoc.org/github.com/DFWallet/anatha?status.svg)](https://godoc.org/github.com/DFWallet/anatha)
 [![riot.im](https://img.shields.io/badge/riot.im-JOIN%20CHAT-green.svg)](https://riot.im/app/#/room/#cosmos-sdk:matrix.org)
 
 The Cosmos-SDK is a framework for building blockchain applications in Golang.

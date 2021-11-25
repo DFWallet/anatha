@@ -3,8 +3,8 @@ package types
 import (
 	"time"
 
-	sdk "github.com/DFWallet/anatha/types"
-	stakingexported "github.com/DFWallet/anatha/x/staking/exported"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	stakingexported "github.com/cosmos/cosmos-sdk/x/staking/exported"
 
 	"github.com/tendermint/tendermint/crypto"
 )

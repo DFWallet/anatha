@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/DFWallet/anatha/x/evidence/exported"
+	"github.com/cosmos/cosmos-sdk/x/evidence/exported"
 )
 
 // DONTCOVER

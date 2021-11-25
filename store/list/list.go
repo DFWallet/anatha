@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/DFWallet/anatha/codec"
+	"github.com/cosmos/cosmos-sdk/codec"
 
-	"github.com/DFWallet/anatha/store/types"
+	"github.com/cosmos/cosmos-sdk/store/types"
 )
 
 // Key for the length of the list

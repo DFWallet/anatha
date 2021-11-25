@@ -11,9 +11,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/DFWallet/anatha/codec"
-	"github.com/DFWallet/anatha/store/rootmulti"
-	sdk "github.com/DFWallet/anatha/types"
+	"github.com/cosmos/cosmos-sdk/codec"
+	"github.com/cosmos/cosmos-sdk/store/rootmulti"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 type TestStruct struct {

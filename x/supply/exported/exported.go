@@ -1,9 +1,9 @@
 package exported
 
 import (
-	sdk "github.com/DFWallet/anatha/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/DFWallet/anatha/x/auth/exported"
+	"github.com/cosmos/cosmos-sdk/x/auth/exported"
 )
 
 // ModuleAccountI defines an account interface for modules that hold tokens in an escrow

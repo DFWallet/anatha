@@ -6,10 +6,10 @@ import (
 	"github.com/stretchr/testify/require"
 	tmbytes "github.com/tendermint/tendermint/libs/bytes"
 
-	"github.com/DFWallet/anatha/codec"
-	sdk "github.com/DFWallet/anatha/types"
-	"github.com/DFWallet/anatha/x/evidence/exported"
-	"github.com/DFWallet/anatha/x/evidence/internal/types"
+	"github.com/cosmos/cosmos-sdk/codec"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/evidence/exported"
+	"github.com/cosmos/cosmos-sdk/x/evidence/internal/types"
 )
 
 var _ exported.Evidence = (*testEvidence)(nil)

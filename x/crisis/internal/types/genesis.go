@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	sdk "github.com/DFWallet/anatha/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 // GenesisState - crisis genesis state

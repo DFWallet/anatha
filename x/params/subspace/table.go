@@ -3,7 +3,7 @@ package subspace
 import (
 	"reflect"
 
-	sdk "github.com/DFWallet/anatha/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 type attribute struct {

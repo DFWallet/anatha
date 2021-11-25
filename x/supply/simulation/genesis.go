@@ -5,11 +5,11 @@ package simulation
 import (
 	"fmt"
 
-	"github.com/DFWallet/anatha/codec"
+	"github.com/cosmos/cosmos-sdk/codec"
 
-	sdk "github.com/DFWallet/anatha/types"
-	"github.com/DFWallet/anatha/types/module"
-	"github.com/DFWallet/anatha/x/supply/internal/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/types/module"
+	"github.com/cosmos/cosmos-sdk/x/supply/internal/types"
 )
 
 // RandomizedGenState generates a random GenesisState for supply

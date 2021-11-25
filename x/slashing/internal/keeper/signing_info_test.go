@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	sdk "github.com/DFWallet/anatha/types"
-	"github.com/DFWallet/anatha/x/slashing/internal/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/slashing/internal/types"
 )
 
 func TestGetSetValidatorSigningInfo(t *testing.T) {

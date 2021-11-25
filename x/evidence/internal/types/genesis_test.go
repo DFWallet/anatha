@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/crypto/ed25519"
 
-	"github.com/DFWallet/anatha/x/evidence/exported"
-	"github.com/DFWallet/anatha/x/evidence/internal/types"
+	"github.com/cosmos/cosmos-sdk/x/evidence/exported"
+	"github.com/cosmos/cosmos-sdk/x/evidence/internal/types"
 )
 
 func TestDefaultGenesisState(t *testing.T) {

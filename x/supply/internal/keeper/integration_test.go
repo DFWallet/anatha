@@ -3,10 +3,10 @@ package keeper_test
 import (
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/DFWallet/anatha/simapp"
-	sdk "github.com/DFWallet/anatha/types"
-	keep "github.com/DFWallet/anatha/x/supply/internal/keeper"
-	"github.com/DFWallet/anatha/x/supply/internal/types"
+	"github.com/cosmos/cosmos-sdk/simapp"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	keep "github.com/cosmos/cosmos-sdk/x/supply/internal/keeper"
+	"github.com/cosmos/cosmos-sdk/x/supply/internal/types"
 )
 
 var (

@@ -3,7 +3,7 @@ package types
 import (
 	"encoding/binary"
 
-	sdk "github.com/DFWallet/anatha/types"
+	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 const (

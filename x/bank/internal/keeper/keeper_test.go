@@ -9,13 +9,13 @@ import (
 	tmkv "github.com/tendermint/tendermint/libs/kv"
 	tmtime "github.com/tendermint/tendermint/types/time"
 
-	"github.com/DFWallet/anatha/simapp"
-	sdk "github.com/DFWallet/anatha/types"
-	"github.com/DFWallet/anatha/x/auth"
-	"github.com/DFWallet/anatha/x/auth/vesting"
-	keep "github.com/DFWallet/anatha/x/bank/internal/keeper"
-	"github.com/DFWallet/anatha/x/bank/internal/types"
-	"github.com/DFWallet/anatha/x/supply"
+	"github.com/cosmos/cosmos-sdk/simapp"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/auth"
+	"github.com/cosmos/cosmos-sdk/x/auth/vesting"
+	keep "github.com/cosmos/cosmos-sdk/x/bank/internal/keeper"
+	"github.com/cosmos/cosmos-sdk/x/bank/internal/types"
+	"github.com/cosmos/cosmos-sdk/x/supply"
 )
 
 func TestKeeper(t *testing.T) {

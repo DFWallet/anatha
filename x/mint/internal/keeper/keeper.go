@@ -5,10 +5,10 @@ import (
 
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/DFWallet/anatha/codec"
-	sdk "github.com/DFWallet/anatha/types"
-	"github.com/DFWallet/anatha/x/mint/internal/types"
-	"github.com/DFWallet/anatha/x/params"
+	"github.com/cosmos/cosmos-sdk/codec"
+	sdk "github.com/cosmos/cosmos-sdk/types"
+	"github.com/cosmos/cosmos-sdk/x/mint/internal/types"
+	"github.com/cosmos/cosmos-sdk/x/params"
 )
 
 // Keeper of the mint store
